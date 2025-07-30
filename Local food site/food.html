@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Food Site</title>
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+      <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-basket'></i>ChopBeta</a>
+        <label class="toggle-switch">
+            <input type="checkbox" id="dark-mode-toggle">
+            <span class="slider"></span>
+        </label>
+        <!--Nav list-->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
+        <!--Profile-->
+        <div class="profile">
+            <img src="mann.jpg" alt="">
+            <span>Tobi Chima</span>
+            <i class='bx bx-caret-down'></i>
+        </div>
+       
+    </header>
+     <!--Home-->
+     <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!--slide 1-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span> We are ChopBeta</span>
+                    <h1>Choose ChopBeta <br> the best African<br> Restaurant</h1>
+                    <a href="#" class="btn">Shop Now <i class= 'bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="ofada.png">
+
+            </div>
+            <!--slide 2-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span> We are delicacy</span>
+                    <h1>Choose Gourmet <br> the best juicy <br> chicken burger</h1>
+                    <a href="#" class="btn">Shop Now <i class= 'bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="burger.png">
+
+            </div>
+            <!--slide 3-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span> We are delicacy</span>
+                    <h1>Choose Gourmet <br> the best juicy <br> chicken burger</h1>
+                    <a href="#" class="btn">Shop Now <i class= 'bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="burger3 (2).png">
+
+            </div>
+        </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </section>
+        <!--categories-->
+        <section class="categories" id="categories">
+            <div class="heading">
+                <h1>Explore our trending <br><span> categories</h1>
+                <a href="#" class="btn">See All <i class= 'bx bx-right-arrow-alt'></i></a>
+            </div>
+                <!--categories container-->
+            <div class="categories-container">
+            <!--Box 1-->
+            <div class="box box1">
+                <img src="edikaikong.png" alt="">
+                <h2>Soups</h2>
+                <span>12 items</span>
+                <i class= 'bx bx-right-arrow-alt'></i>
+            </div>
+            <!--Box 2-->
+            <div class="box box2">
+                <img src="rice.png" alt="">
+                <h2>Rice</h2>
+                <span>12 items</span>
+                <i class= 'bx bx-right-arrow-alt'></i>
+            </div>
+            <!--Box 3-->
+            <div class="box box3">
+                <img src="tigernut.png" alt="">
+                <h2>Drinks</h2>
+                <span>12 items</span>
+                <i class= 'bx bx-right-arrow-alt'></i>
+            </div>
+             <!--Box 4-->
+             <div class="box box4">
+                <img src="edikaikong.png" alt="">
+                <h2>Snacks</h2>
+                <span>12 items</span>
+                <i class= 'bx bx-right-arrow-alt'></i>
+            </div>
+             <!--Box 5-->
+             <div class="box box5">
+                <img src="tigernut.png" alt="">
+                <h2>Extras</h2>
+                <span>12 items</span>
+                <i class= 'bx bx-right-arrow-alt'></i>
+            </div>
+        </div>
+    </section>
+    <!--Product Section-->
+    <section class="products" id="products">
+        <div class="heading">
+            <h1>Our Popular <br><span> Products</h1>
+            <a href="#" class="btn">Shop Now<i class= 'bx bx-right-arrow-alt'></i></a>
+        </div>
+        <!--product content-->
+        <div class="product-container">
+            <!--Box1-->
+            <div class="box">
+                <img src="ofada.png" alt="ofada">
+                <span>Local Rice</span>
+                <h2>Ofada rice </h2>
+                <h3 class="price">$7.00</h3>
+                <i class="bx bx-cart-alt"></i>
+                <i class="bx bx-heart"></i>
+                <span class="discount">-19%</span>
+            </div>
+             <!--Box2-->
+             <div class="box">
+                <img src="amala-removebg-preview.png" alt="ofada">
+                <span>Classic Dish</span>
+                <h2>Amala and Ewedu </h2>
+                <h3 class="price">$3.20</h3>
+                <i class="bx bx-cart-alt"></i>
+                <i class="bx bx-heart"></i>
+                <span class="discount">-44%</span>
+            </div>
+             <!--Box3-->
+             <div class="box">
+                <img src="smallchops-removebg-preview.png" alt="ofada">
+                <span>Tasty Snacks</span>
+                <h2>Small chops</h2>
+                <h3 class="price">$4.35</h3>
+                <i class="bx bx-cart-alt"></i>
+                <i class="bx bx-heart"></i>
+                <span class="discount">-10%</span>
+            </div>
+             <!--Box4-->
+             <div class="box">
+                <img src="kunu-removebg-preview.png" alt="ofada">
+                <span>Natural Drinks</span>
+                <h2>Zobo and Kunu </h2>
+                <h3 class="price">$12.80</h3>
+                <i class="bx bx-cart-alt"></i>
+                <i class="bx bx-heart"></i>
+                <span class="discount">-25%</span>
+            </div>
+             <!--Box5-->
+             <div class="box">
+                <img src="bole-removebg-preview.png" alt="ofada">
+                <span>Classic street food</span>
+                <h2>Bole and Fish </h2>
+                <h3 class="price">$9.34</h3>
+                <i class="bx bx-cart-alt"></i>
+                <i class="bx bx-heart"></i>
+                <span class="discount">-17%</span>
+            </div>
+             <!--Box6-->
+             <div class="box">
+                <img src="native_rice-removebg-preview.png">
+                <span>Local Dish</span>
+                <h2>Native Rice</h2>
+                <h3 class="price">$5.33</h3>
+                <i class="bx bx-cart-alt"></i>
+                <i class="bx bx-heart"></i>
+                <span class="discount">-9%</span>
+            </div>
+        </div>
+    </section>
+    <!--About Us-->
+    <section class="about" id="about">
+        <img src="burger3 (2).png">
+        <div class="about-text">
+            <span>About Us</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto totam asperiores error delectus hic laborum sapiente reprehenderit odit amet! Reprehenderit voluptas delectus aliquam necessitatibus rerum vero placeat deleniti, magni distinctio.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae excepturi ipsam dolorem quidem nam fuga possimus aspernatur. Corrupti, sequi asperiores? Ea consectetur unde similique fugit dolore, esse molestiae quae quam.</p>
+            <a href="#" class="btn">Learn More<i class= 'bx bx-right-arrow-alt'></i></a>
+        </div>
+    </section>
+    <!--customers-->
+    <section class="customers" id="customers">
+        <h2>What do Customers say about us?</h2>
+        <!--Customers content-->
+        <div class="customers-container">
+            <!--Review1-->
+            <div class="box">
+                <i class='bx bxs-quote-alt-left'></i>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quaerat ab delectus odit voluptates sit optio unde, id doloremque, hic commodi vitae beatae, quibusdam temporibus aut fuga. Aliquid, voluptatibus magni.</p>
+                <div class="review-profile">
+                    <img src="man.jpg">
+                    <h3>Oladeji Mark</h3>
+                </div>
+            </div>
+             <!--Review2-->
+             <div class="box">
+                <i class='bx bxs-quote-alt-left'></i>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quaerat ab delectus odit voluptates sit optio unde, id doloremque, hic commodi vitae beatae, quibusdam temporibus aut fuga. Aliquid, voluptatibus magni.</p>
+                <div class="review-profile">
+                    <img src="man2.jpg">
+                    <h3>Tosin Akinbo</h3>
+                </div>
+            </div>
+             <!--Review3-->
+             <div class="box">
+                <i class='bx bxs-quote-alt-left'></i>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quaerat ab delectus odit voluptates sit optio unde, id doloremque, hic commodi vitae beatae, quibusdam temporibus aut fuga. Aliquid, voluptatibus magni.</p>
+                <div class="review-profile">
+                    <img src="womann.jfif">
+                    <h3>Oladeji Mark</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <a href="#" class="logo"><i class='bx bxs-basket'></i>ChopBeta</a>
+        <p>32,George aina street,<br>Ikeja,Lagos State</p>
+        <div class="socials">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+        </div>
+        <div class="footer-box">
+            <h2>Categories</h2>
+            <a href="#">Drinks</a>
+            <a href="#">Snacks</a>
+            <a href="#">African Dish</a>
+            <a href="#">Soups</a>
+        </div>
+        <div class="footer-box">
+            <h2>Useful Links</h2>
+            <a href="#">Payment&Tax</a>
+            <a href="#">Terms Of Use</a>
+            <a href="#">Blogs</a>
+            <a href="#">Return Policy</a>
+        </div>
+        <div class="footer-box">
+            <h2>Newsletter</h2>
+            <p>Get 10% Discount with <br> Email Newsletter</p>
+            <form action="">
+                <i class='bx bxs-envelope'></i>
+                <input type="email" name="" id="" placeholder="Enter Your Email">
+                <i class='bx bx-arrow-back bx-rotate-180'></i>
+            </form>
+        </div>
+    </section>
+
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="food.js"></script>
+</body>
+</html>
